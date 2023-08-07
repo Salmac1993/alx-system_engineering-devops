@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find $current_dir -type f -mtime -10 | sort -n | head -10
